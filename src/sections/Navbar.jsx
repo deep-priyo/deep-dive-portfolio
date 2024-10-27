@@ -1,12 +1,15 @@
 import {useState} from "react";
- const NavItems =()=>{
+import {navLinks} from "../constants/index.js";
+
+const NavItems =()=>{
      return(
          <ul className="nav-ul">
-             {["Home", "About", "Projects", "Contact"].map(item, index)=>(
-                 <li className="nav-li">
-                 <a href="/" className="nav-li_a">Home</a>
-                 </li>
-                 )}
+             {navLinks.map((item,)=>(<li key={item.id} className="nav-li_a" onClick={()=>{}}>
+                 <a href={item.href}>
+                     {item.name}
+
+                 </a>
+             </li>))}
 
 
          </ul>
