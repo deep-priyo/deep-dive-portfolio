@@ -27,7 +27,7 @@ const Experience = () => {
                                         <p className="font-bold text-white-800">
                                             {name}
                                         </p>
-                                        <p className="text-sm mb"></p>
+                                        <p className="text-sm mb-5 ">{pos}--{duration}</p>
                                     </div>
                                 </div>
                             ))}
