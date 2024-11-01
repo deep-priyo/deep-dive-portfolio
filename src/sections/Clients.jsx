@@ -6,17 +6,17 @@ const Clients = () => {
             <h3 className="head-text">Hear from My Clients</h3>
 
             <div className="client-container">
-                {clientReviews.map((item) => (
-                    <div key={`review-${item.id}`} className="client-review">
+                {clientReviews.map(({id,review,img,name,position}) => (
+                    <div key={`review-${id}`} className="client-review">
                         <div>
-                            <p className="text-white-800 font-light">{item.review}</p>
+                            <p className="text-white-800 font-light">{review}</p>
 
                             <div className="client-content">
                                 <div className="flex gap-3">
-                                    <img src={item.img} alt="reviewer" className="w-12 h-12 rounded-full" />
+                                    <img src={img} alt="reviewer" className="w-12 h-12 rounded-full" />
                                     <div className="flex flex-col">
-                                        <p className="font-semibold text-white-800">{item.name}</p>
-                                        <p className="text-white-500 md:text-base text-sm font-light">{item.position}</p>
+                                        <p className="font-semibold text-white-800">{name}</p>
+                                        <p className="text-white-500 md:text-base text-sm font-light">{position}</p>
                                     </div>
                                 </div>
 
