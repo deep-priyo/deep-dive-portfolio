@@ -1,12 +1,13 @@
 import {Canvas} from "@react-three/fiber";
 import {workExperiences} from "../constants/index.js";
 import {OrbitControls} from "@react-three/drei";
-import {Suspense} from "react";
+import {Suspense, useState} from "react";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import Developer from "../components/Developer.jsx";
 
 
 const Experience = () => {
+    const[animationName,setAnimation]=useState('idle');
     return (
         <section className="c-space my-20 ">
             <div className="w-full text-white-600 ">
@@ -15,11 +16,11 @@ const Experience = () => {
                     <div className="work-canvas">
                         <Canvas>
                             <ambientLight intensity={7}/>
-                            <spotlight position = {[10,10,10]} angle={0.15} penubra={1}/>
+                            <spotLight position = {[10,10,10]} angle={0.15} penubra={1}/>
                             <directionalLight position={[10,10,10]} intensity={1}/>
                             <OrbitControls enableZoom={false} maxPolarAngle={Math.PI/2}/>
                             <Suspense fallback={<CanvasLoader/>}>
-                                    <Developer position-y={-3} scale={3}/>
+                                    <Developer position-y={-3} scale={3} animationName={animationName}/>
                             </Suspense>
 
                         </Canvas>
@@ -27,7 +28,7 @@ const Experience = () => {
                     <div className="work-content">
                         <div className="sm:py-10 py-5 sm:px-5">
                             {workExperiences.map(({id, icon,name,pos,duration,title,animation,}, index) => (
-                                <div key={id} className="work-content_container group">
+                                <div key={id} className="work-content_container group" onClick={()=>setAnimation(animation.toLowerCase())} onPointerOver={()=>setAnimation(animation.toLowerCase())} onPointerOut={()=>setAnimation('idle')}>
                                     <div className="flex flex-col h-full justify-start items-center py-2">
                                         <div className="work-content_logo">
                                             <img src={icon} alt="logo" className="w-full h-full"/>
