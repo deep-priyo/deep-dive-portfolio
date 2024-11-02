@@ -10,7 +10,7 @@ const Experience = () => {
                 <div className="work-container">
                     <div className="work-canvas">
                         <Canvas>
-
+                        <ambient
                         </Canvas>
                     </div>
                     <div className="work-content">
@@ -40,3 +40,4 @@ const Experience = () => {
     )
 }
 export default Experience
+
