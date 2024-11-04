@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'Flask E-Commerce Web App - Custom Admin Panel',
+        desc: 'Welcome to the Flask E-Commerce Application! This web application, built using Flask and SQLAlchemy, is designed to provide a full-featured e-commerce experience.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'The e-commerce web app features robust user authentication with secure login, registration, and session management using Flask-Login and Flask-Bcrypt for password hashing. Admins can manage products efficiently. Built with Flask, SQLAlchemy for database handling, Flask-WTF for form management, and Flask-Bootstrap for responsive design, ensuring a seamless user experience.',
+        href: 'https://github.com/deep-priyo/E_Commerce-Web-App',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -95,11 +95,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
+        title: 'Flux.1 Re-Imagined Top 25 out of 700 Teams across India',
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
         subdesc:
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        href: 'https://re-imagine-last-round.vercel.app/',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
