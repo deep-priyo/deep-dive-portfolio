@@ -32,7 +32,7 @@ const Projects = () => {
                         <img src={currentProject.logo} alt="logo" className="w-10 h-10 shadow-sm" />
                     </div>
                     <div className="flex flex-col gap-5 text-white-600 my-5">
-                        <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
+                        <p className="text-white text-2xl font-sans tracking-tighter font-semibold animatedText">{currentProject.title}</p>
 
                         <p className="animatedText text-justify">{currentProject.desc}</p>
                         <p className="animatedText text-justify"><span className='text-zinc-700 font-semibold tracking-tight capitalize'>Skills I gained: </span>{currentProject.skill}</p>
