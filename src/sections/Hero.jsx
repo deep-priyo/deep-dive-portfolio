@@ -3,8 +3,6 @@ import {PerspectiveCamera, Ring} from "@react-three/drei";
 import HackerRoom from "../components/HackerRoom.jsx";
 import {Suspense} from "react";
 import CanvasLoader from "../components/CanvasLoader.jsx";
-import {Leva, useControls} from "leva";
-import {max} from "three/src/nodes/math/MathNode.js";
 import {useMediaQuery} from "react-responsive";
 import {calculateSizes} from "../constants/index.js";
 import Target from "../components/Target.jsx";
