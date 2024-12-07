@@ -134,15 +134,14 @@ export const myProjects = [
     {
         title: 'Refokus Reinterpret',
         desc: 'Refokus Clone is a modern web platform that showcases elegant UI/UX design and seamless user interactions. It serves as an engaging portfolio website template, designed to highlight projects, achievements, and professional skills. The project emphasizes interactive elements and smooth animations using ReactJS and advanced libraries like Locomotive Scroll and Framer Motion, ensuring a visually appealing experience. Ideal for developers looking to present their work or build an online presence with an aesthetic that combines functionality and creative flair.',
-        skill:
-            '',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        skill: 'Gained experience working with React, Tailwind CSS, Framer Motion, Locomotive Scroll, and React Icons, along with deploying on Netlify and utilizing Git for version control.',
+        href: 'https://refokusreinterpret.netlify.app/',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
-            backgroundColor: '#60f5a1',
+            backgroundColor: '#000', // Set a solid black background as the base
             background:
-                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+                'linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.8) 100%)',
             border: '0.2px solid rgba(208, 213, 221, 1)',
             boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
         },
@@ -160,8 +159,8 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Locomotive Scroll',
+                path: '/assets/locomotivescroll.jpeg',
             },
             {
                 id: 4,
