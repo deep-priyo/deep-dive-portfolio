@@ -45,14 +45,20 @@ const Projects = () => {
                                 </div>
                             ))}
                         </div>
-                        <a className="flex items-center gap-2 cursor-pointer text-white-600" href={currentProject.href} target="_blank" rel="noreferrer">
+                        <a className="flex items-center gap-2 cursor-pointer text-white-600" href={currentProject.href}
+                           target="_blank" rel="noreferrer">
                             <p>Check out this project</p>
-                            <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow-up" />
+                            <span className="relative flex h-3 w-3">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full "><img
+      src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow-up"/></span>
+
+</span>
+
                         </a>
                     </div>
                     <div className="flex justify-between items-center mt-7">
                         <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
-                            <img src="/assets/left-arrow.png" className="w-4 h-4" alt="left-arrow" />
+                        <img src="/assets/left-arrow.png" className="w-4 h-4" alt="left-arrow" />
                         </button>
                         <button className="arrow-btn" onClick={() => handleNavigation('next')}>
                             <img src="/assets/right-arrow.png" className="w-4 h-4" alt="right-arrow" />
