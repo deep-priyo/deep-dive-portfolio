@@ -136,7 +136,7 @@ export const myProjects = [
         desc: 'Refokus Clone is a modern web platform that showcases elegant UI/UX design and seamless user interactions. It serves as an engaging portfolio website template, designed to highlight projects, achievements, and professional skills. The project emphasizes interactive elements and smooth animations using ReactJS and advanced libraries like Locomotive Scroll and Framer Motion, ensuring a visually appealing experience. Ideal for developers looking to present their work or build an online presence with an aesthetic that combines functionality and creative flair.',
         skill: 'Gained experience working with React, Tailwind CSS, Framer Motion, Locomotive Scroll, and React Icons, along with deploying on Netlify and utilizing Git for version control.',
         href: 'https://refokusreinterpret.netlify.app/',
-        texture: '/textures/project/project3.mp4',
+        texture: '/textures/project/refokus.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#000', // Set a solid black background as the base
