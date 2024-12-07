@@ -60,7 +60,7 @@ export const myProjects = [
     {
         title: 'Flask E-Commerce Web App - Custom Admin Panel',
         desc: 'Welcome to the Flask E-Commerce Application! This web application, built using Flask and SQLAlchemy, is designed to provide a full-featured e-commerce experience.',
-        subdesc:
+        skill:
             'The e-commerce web app features robust user authentication with secure login, registration, and session management using Flask-Login and Flask-Bcrypt for password hashing. Admins can manage products efficiently. Built with Flask, SQLAlchemy for database handling, Flask-WTF for form management, and Flask-Bootstrap for responsive design, ensuring a seamless user experience.',
         href: 'https://github.com/deep-priyo/E_Commerce-Web-App',
         texture: '/textures/project/project1.mp4',
@@ -97,7 +97,7 @@ export const myProjects = [
     {
         title: 'Flux.1 Re-Imagined Top 25 out of 700 Teams across India',
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-        subdesc:
+        skill:
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
         href: 'https://re-imagine-last-round.vercel.app/',
         texture: '/textures/project/project2.mp4',
@@ -132,10 +132,10 @@ export const myProjects = [
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-        subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        title: 'Refokus Reinterpret',
+        desc: 'Refokus Clone is a modern web platform that showcases elegant UI/UX design and seamless user interactions. It serves as an engaging portfolio website template, designed to highlight projects, achievements, and professional skills. The project emphasizes interactive elements and smooth animations using ReactJS and advanced libraries like Locomotive Scroll and Framer Motion, ensuring a visually appealing experience. Ideal for developers looking to present their work or build an online presence with an aesthetic that combines functionality and creative flair.',
+        skill:
+            '',
         href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
@@ -173,7 +173,7 @@ export const myProjects = [
     {
         title: 'Horizon - Online Banking Platform',
         desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-        subdesc:
+        skill:
             'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
         href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
         texture: '/textures/project/project4.mp4',
@@ -210,7 +210,7 @@ export const myProjects = [
     {
         title: 'Imaginify - AI Photo Manipulation App',
         desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
+        skill:
             'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
         href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
         texture: '/textures/project/project5.mp4',
