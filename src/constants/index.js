@@ -58,13 +58,13 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Flask E-Commerce Web App - Custom Admin Panel',
-        desc: 'Welcome to the Flask E-Commerce Application! This web application, built using Flask and SQLAlchemy, is designed to provide a full-featured e-commerce experience.',
+        title: 'E-Commerce Web App with Custom Admin Panel - Freelance Project ',
+        desc: 'Welcome to the E-Commerce Application! This web application, built using Flask and SQLAlchemy, is designed to provide a full-featured e-commerce experience.',
         skill:
             'The e-commerce web app features robust user authentication with secure login, registration, and session management using Flask-Login and Flask-Bcrypt for password hashing. Admins can manage products efficiently. Built with Flask, SQLAlchemy for database handling, Flask-WTF for form management, and Flask-Bootstrap for responsive design, ensuring a seamless user experience.',
         href: 'https://github.com/deep-priyo/E_Commerce-Web-App',
         texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        logo: '/assets/img_4.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
@@ -74,8 +74,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Flask',
+                path: '/assets/flask.svg',
             },
             {
                 id: 2,
@@ -84,24 +84,26 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Sql',
+                path: '/assets/sql.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Bootstrap',
+                path: '/assets/bootstrap.svg',
             },
         ],
     },
     {
-        title: 'Flux.1 Re-Imagined Top 25 out of 700 Teams across India',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-        skill:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://re-imagine-last-round.vercel.app/',
+        title: 'NLPBankWise - An Intelligent AI Banking Assistant',
+        desc: 'With this project I secured 2nd place in NLP Hackathon organised by IIT Kgp, competing against 100+ teams from top institutions. Developed a \n' +
+            'Conversational Banking Chatbot using HTML, CSS, Flask, Flask-RESTful, Flask-Session, Flask-SQLAlchemy, \n' +
+            'Flask-Bcrypt, OpenAI API, Gemini LLM, and JSON-based REST APIs, implementing query classification, \n' +
+            'multilingual support, and secure transaction handling.',
+        skill:'Built with Flask, Flask-RESTful, I gained expertise in backend development, API design, and OpenAI API and Gemini LLM to implement NLP-based query classification, multilingual processing, and conversational AI. ',
+        href: 'https://github.com/deep-priyo/NLP_Bank_Wise',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/img_9.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -116,18 +118,18 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Rest-API',
+                path: '/assets/rest.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JSON',
+                path: '/assets/img_10.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Flask',
+                path: '/assets/img_11.png',
             },
         ],
     },
@@ -170,13 +172,12 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-        skill:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        title: 'MediSyncAI, An AI Powered Medical Analysis Platform Built in 24 hours ',
+        desc: 'MediSync is an AI-driven healthcare platform that enhances medical diagnostics by deciphering hard-to-read prescriptions, diagnosing diseases based on current and past symptoms, and analyzing lab reports for deeper insights. Built in 24 hours, it leverages cutting edge AI and ML to improve diagnostic accuracy, and assist patients and doctors in faster, data-driven decision-making. MediSync seamlessly integrates with EHRs and healthcare systems, providing real-time AI-powered medical insights for efficient and precise healthcare solutions. 🚀🩺',
+        skill:'Built with React.js, Flask, and RESTful APIs, I developed expertise in frontend-backend integration, API handling, and secure authentication (OAuth, JWT). Additionally, I implemented interactive UI animations, ensuring a seamless and engaging user experience',
+        href: 'https://medi-sync-frontend-beta.vercel.app/',
         texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
+        logo: '/assets/meidsync.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
@@ -196,24 +197,23 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Flask',
+                path: '/assets/flask.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Open AI',
+                path: '/assets/img.png',
             },
         ],
     },
     {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        skill:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        title: 'SecureAuth – Flask User Authentication & Password Recovery',
+        desc: 'SecureAuth is a Flask-based user authentication system designed for secure registration, login, and password recovery. It features hashed password storage (PBKDF2 + SHA-256), email-based password recovery (SMTP), session management (Flask-Login), and protected routes for secure user access. The system also includes file download restrictions for authenticated users, showcasing access control techniques. Built using Flask, SQLAlchemy, and SMTP, SecureAuth provides a comprehensive guide to implementing secure authentication in web applications. ',
+        skill: 'Built with Flask, SQLAlchemy, and Flask-Login, I gained expertise in secure authentication, session management, and password hashing. Implemented email-based password recovery (SMTP) and protected routes, ensuring role-based access control.',
+        href: 'https://github.com/deep-priyo/SecureAuth',
         texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
+        logo: '/assets/img_3.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
@@ -223,24 +223,20 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Flask',
+                path: '/assets/flask.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'SQLAlchemy',
+                path: '/assets/sql.svg',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Authentication',
+                path: '/assets/img_2.png',
             },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
+
         ],
     },
 ];
@@ -259,29 +255,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer.jsx',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'StockMktEducation',
+        pos: ' Full Stack Engineering Intern ',
+        duration: ' Jan 2025 - Present',
+        title: "Developed & deployed a fully responsive showcase website from scratch using React.js, Tailwind CSS optimized for \n" +
+            "1,000+ monthly visitors, reducing initial load time by 35%. ",
+        icon: '/assets/img_7.png',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer.jsx',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
+        name: 'The MMG',
+        pos: 'Freelance Project ',
+        duration: ' July 2024 – August 2024  ',
+        title:"Spearheaded the end-to-end development of a fully responsive e-commerce platform using Flask, SQLAlchemy, \n" +
+            "and SQLite with  secure admin panel increasing operational efficiency by 60%  .",
+        icon: '/assets/img_6.png',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer.jsx',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        name: 'Full-Time Problem Solver & Full-Stack Explorer',
+        pos: 'Programmer & Developer',
+        duration: 'Lifetime',
+        title: "Programming has been more than just a skill—it's a lifelong journey of solving complex problems, building scalable applications, and continuously learning. I explore new technologies, refine my problem-solving skills, and turn ideas into reality.",
+        icon: '/assets/img_8.png',
         animation: 'salute',
+
     },
 ];
