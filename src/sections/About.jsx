@@ -47,6 +47,12 @@ const About = () => {
 
                 <div className="col-span-1 xl:row-span-4">
                     <div className="grid-container">
+                        <p className="grid-subtext font-bold italic text-[22px] absolute mt-10 sm:mt-16  rotate-[-15deg] origin-left">
+                            Can U Locate Me Though?
+                        </p>
+                        <p className="text-[#afb0b6] font-generalsans  italic text-[12px] absolute py-14 sm:py-[86px] px-5  rotate-[-15deg] origin-left">
+                            Spot me? There's a contact form—hit me up!
+                        </p>
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
                             <Globe
                                 height={326}
