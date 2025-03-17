@@ -63,7 +63,7 @@ export const myProjects = [
         skill:
             'The e-commerce web app features robust user authentication with secure login, registration, and session management using Flask-Login and Flask-Bcrypt for password hashing. Admins can manage products efficiently. Built with Flask, SQLAlchemy for database handling, Flask-WTF for form management, and Flask-Bootstrap for responsive design, ensuring a seamless user experience.',
         href: 'https://github.com/deep-priyo/E_Commerce-Web-App',
-        texture: '/textures/project/project1.mp4',
+        texture: '/assets/Videos/TheMMG.mp4',
         logo: '/assets/img_4.png',
         logoStyle: {
             backgroundColor: '#2A1816',
@@ -102,7 +102,7 @@ export const myProjects = [
             'multilingual support, and secure transaction handling.',
         skill:'Built with Flask, Flask-RESTful, I gained expertise in backend development, API design, and OpenAI API and Gemini LLM to implement NLP-based query classification, multilingual processing, and conversational AI. ',
         href: 'https://github.com/deep-priyo/NLP_Bank_Wise',
-        texture: '/textures/project/project2.mp4',
+        texture: 'public/assets/Videos/nlpslideshow.mp4',
         logo: '/assets/img_9.png',
         logoStyle: {
             backgroundColor: '#13202F',
@@ -138,7 +138,7 @@ export const myProjects = [
         desc: 'Refokus Clone is a modern web platform that showcases elegant UI/UX design and seamless user interactions. It serves as an engaging portfolio website template, designed to highlight projects, achievements, and professional skills. The project emphasizes interactive elements and smooth animations using ReactJS and advanced libraries like Locomotive Scroll and Framer Motion, ensuring a visually appealing experience. Ideal for developers looking to present their work or build an online presence with an aesthetic that combines functionality and creative flair.',
         skill: 'Gained experience working with React, Tailwind CSS, Framer Motion, Locomotive Scroll, and React Icons, along with deploying on Netlify and utilizing Git for version control.',
         href: 'https://refokusreinterpret.netlify.app/',
-        texture: '/textures/project/refokus.mp4',
+        texture: 'assets/Videos/refokus.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#000', // Set a solid black background as the base
@@ -176,7 +176,7 @@ export const myProjects = [
         desc: 'MediSync is an AI-driven healthcare platform that enhances medical diagnostics by deciphering hard-to-read prescriptions, diagnosing diseases based on current and past symptoms, and analyzing lab reports for deeper insights. Built in 24 hours, it leverages cutting edge AI and ML to improve diagnostic accuracy, and assist patients and doctors in faster, data-driven decision-making. MediSync seamlessly integrates with EHRs and healthcare systems, providing real-time AI-powered medical insights for efficient and precise healthcare solutions. 🚀🩺',
         skill:'Built with React.js, Flask, and RESTful APIs, I developed expertise in frontend-backend integration, API handling, and secure authentication (OAuth, JWT). Additionally, I implemented interactive UI animations, ensuring a seamless and engaging user experience',
         href: 'https://medi-sync-frontend-beta.vercel.app/',
-        texture: '/textures/project/project4.mp4',
+        texture: '/assets/Videos/MediSync.mp4',
         logo: '/assets/meidsync.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
@@ -212,7 +212,7 @@ export const myProjects = [
         desc: 'SecureAuth is a Flask-based user authentication system designed for secure registration, login, and password recovery. It features hashed password storage (PBKDF2 + SHA-256), email-based password recovery (SMTP), session management (Flask-Login), and protected routes for secure user access. The system also includes file download restrictions for authenticated users, showcasing access control techniques. Built using Flask, SQLAlchemy, and SMTP, SecureAuth provides a comprehensive guide to implementing secure authentication in web applications. ',
         skill: 'Built with Flask, SQLAlchemy, and Flask-Login, I gained expertise in secure authentication, session management, and password hashing. Implemented email-based password recovery (SMTP) and protected routes, ensuring role-based access control.',
         href: 'https://github.com/deep-priyo/SecureAuth',
-        texture: '/textures/project/project5.mp4',
+        texture: 'public/assets/Videos/SecureAuth.mp4',
         logo: '/assets/img_3.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
