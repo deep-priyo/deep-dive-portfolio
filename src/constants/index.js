@@ -257,7 +257,7 @@ export const workExperiences = [
         id: 1,
         name: 'StockMktEducation',
         pos: ' Full Stack Engineering Intern ',
-        duration: ' Jan 2025 - Present',
+        duration: ' Jan 2025 - March 2025',
         title: "Developed & deployed a fully responsive showcase website from scratch using React.js, Tailwind CSS optimized for \n" +
             "1,000+ monthly visitors, reducing initial load time by 35%. ",
         icon: '/assets/img_7.png',
@@ -267,7 +267,7 @@ export const workExperiences = [
         id: 2,
         name: 'The MMG',
         pos: 'Freelance Project ',
-        duration: ' July 2024 – August 2024  ',
+        duration: ' November 2024 – December 2024  ',
         title:"Spearheaded the end-to-end development of a fully responsive e-commerce platform using Flask, SQLAlchemy, \n" +
             "and SQLite with  secure admin panel increasing operational efficiency by 60%  .",
         icon: '/assets/img_6.png',
