@@ -255,30 +255,33 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'StockMktEducation',
-        pos: ' Full Stack Engineering Intern ',
-        duration: ' Jan 2025 - Present',
-        title: "Developed & deployed a fully responsive showcase website from scratch using React.js, Tailwind CSS optimized for \n" +
-            "1,000+ monthly visitors, reducing initial load time by 35%. ",
+        name: 'Intelligent Inspirations Pvt. Ltd. (Techno India Group)',
+        pos: 'Backend Developer Intern',
+        duration: 'Jul 2025 - Sep 2025',
+        title:
+            "Developed scalable Flask-based REST APIs with JWT authentication and modular backend architecture. Integrated LLM services (Gemini, OpenAI) and ML pipelines like Whisper speech-to-text into production workflows for AI-powered MVP products.",
         icon: '/assets/img_7.png',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'The MMG',
-        pos: 'Freelance Project ',
-        duration: ' July 2024 – August 2024  ',
-        title:"Spearheaded the end-to-end development of a fully responsive e-commerce platform using Flask, SQLAlchemy, \n" +
-            "and SQLite with  secure admin panel increasing operational efficiency by 60%  .",
+        name: 'SMAK – Society of Medical Academia and Knowledge',
+        pos: 'Full Stack Developer',
+        duration: 'Oct 2025',
+        title:
+            "Built the official SMAK platform for medical students across India featuring authentication, knowledge dashboards, research journals, educational resources, and event management using React-based frontend architecture.",
+
         icon: '/assets/img_6.png',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Full-Time Problem Solver & Full-Stack Explorer',
-        pos: 'Programmer & Developer',
-        duration: 'Lifetime',
-        title: "Programming has been more than just a skill—it's a lifelong journey of solving complex problems, building scalable applications, and continuously learning. I explore new technologies, refine my problem-solving skills, and turn ideas into reality.",
+        name: 'StockMktEducation',
+        pos: ' Full Stack Engineering Intern ',
+        duration: ' Jan 2025 - Present',
+        title: "Developed & deployed a fully responsive showcase website from scratch using React.js, Tailwind CSS optimized for \n" +
+            "1,000+ monthly visitors, reducing initial load time by 35%. ",
+
         icon: '/assets/img_8.png',
         animation: 'salute',
 
